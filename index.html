@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Portal Docente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body class="app">
+
+  <!-- Tab Bar / Navegação principal -->
+    <nav class="bottom-nav">
+    <button data-target="servicos" class="nav-item nav-item--active">
+      <i class="bi bi-person-exclamation nav-item__icon"></i>
+      <i class="bi bi-person-fill-exclamation nav-item__icon"></i>
+    </button>
+
+    <button data-target="ferramentas" class="nav-item">
+      <i class="bi bi-wrench-adjustable-circle nav-item__icon"></i>
+      <i class="bi bi-wrench-adjustable-circle-fill nav-item__icon"></i>
+    </button>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <main class="app-content">
+
+    <!-- Página: Serviços -->
+    <section id="servicos" class="page page--active">
+      <header class="page-header">
+        <h1 class="page-title">Serviços Internos</h1>
+      </header>
+
+      <section class="section">
+        <header class="section-header">
+          <h2 class="section-title">Formulários</h2>
+          <p class="section-description">Formulários relativos a uso de ambientes e solicitações internas</p>
+        </header>
+
+        <div class="section-container">
+            <!-- Opção: Checklist Pré-Uso -->
+            <a class="section-option" target="_blank" rel="noopener" href="https://forms.gle/B3Z9LfCxn7w4mJ8w6">Checklist<br>Pré-uso</a>
+            <!-- Opção: Checklist Pós-Uso -->
+            <a class="section-option" target="_blank" rel="noopener" href="https://forms.gle/KeBpwgmKY2Dg7bXe6">Checklist<br>Pós-uso</a>
+            <!-- Opção: Registro de Inadequações -->
+            <a class="section-option" target="_blank" rel="noopener" href="https:/formsgleam9iU1emWGRQPuU76">Checklist<br>Inadequações</a>
+            <!-- Opção: Laboratórios -->
+            <a class="section-option" target="_blank"rel="noopener" href="https://forms.gle/j6GKWuTWU5aAMt587">Solicitar Laboratórios</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <header class="section-header">
+          <h2 class="section-title">Documentos</h2>
+          <p class="section-description">Faça o download de documentos relativos a serviços de outros setores ou visualize relatórios</p>
+        </header>
+
+        <div class="section-container">
+            <!-- Download: Formulário de Compras -->
+            <a class="section-option" href="https://github.com/LucasFritsch/portal-logis/raw/refs/heads/main/Modelo%20-%20Solicita%C3%A7%C3%B5es.docx" download="Formulario de Compras">Formulário de Compras</a>
+            <!-- Download: Guia de Compras -->
+            <a class="section-option" href="https://github.com/LucasFritsch/portal-logis/raw/refs/heads/main/Instru%C3%A7%C3%B5es%20-%20Solicita%C3%A7%C3%B5es.docx" download="Formulario de Compras">Guia de Compras</a>
+            <!-- Visualizar: Inventário de Equipamentos -->
+            <a class="section-option" href="https://docs.google.com/spreadsheets/d/1XxGw3WANC-He3X8QhnEx5IAxbk3uLt1I/edit?usp=sharing&ouid=112782639885486584658&rtpof=true&sd=true" target="_blank" rel="noopener">Inventário de Equipamentos</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- Página: Ferramentas -->
+    <section id="ferramentas" class="page">
+      <header class="page-header">
+        <h1 class="page-title">Ferramentas Educacionais</h1>
+      </header>
+
+      <!-- Categoria -->
+      <section class="section">
+        <header class="section-header">
+          <h2 class="section-title">Para ludificar</h2>
+          <p class="section-description"></p>
+        </header>
+
+        <div class="section-list">
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">Canva</h3>
+              <a href="https://www.canva.com/" class="card-external-link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a>
+            </header>
+            <p class="card-text">Canva é uma plataforma online de design gráfico que facilita a criação de conteúdos visuais como apresentações, posts para redes sociais e infográficos. Com uma interface intuitiva e uma ampla biblioteca de recursos, sua missão é tornar o design acessível a todos.</p>
+            <footer class="card-footer">
+              <a href="https://www.canva.com/education/" class="card-action-link" target="_blank">Acesse: Introdução ao Canva!</a>
+            </footer>
+          </article>
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">Gamma</h3>
+              <a href="https://gamma.app/pt-br/products/websites" 
+              class="card-external-link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a>
+            </header>
+            <p class="card-text">Gamma é uma ferramenta educacional que usa inteligência artificial para criar apresentações de slides interativas de forma rápida e intuitiva. Ela transforma conteúdos em experiências visuais envolventes, facilitando o engajamento dos alunos e a comunicação de ideias.</p>
+            <footer class="card-footer">
+              <a href="https://www.youtube.com/watch?v=qo0X0DKx3w4" class="card-action-link" target="_blank">Acesse: Introdução ao Gamma!</a>
+            </footer>
+          </article>
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">Kahoot</h3>
+              <a href="https://kahoot.it/" class="card-external-link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a>
+            </header>
+            <p class="card-text">O Kahoot transforma qualquer conteúdo em um quiz interativo, cheio de cor, som e competição saudável. Os alunos entram com seus dispositivos, respondem em tempo real e disputam pelo topo do ranking. É ótimo para revisar conteúdos, engajar a turma e criar aquele clima de empolgação na sala. Diversão + aprendizado = sucesso garantido! </p>
+            <footer class="card-footer">
+              <a href="https://youtu.be/6MWUMYmAImo?si=0B55m79xnJIj_0Jf" class="card-action-link" target="_blank">Acesse: Como usar o Kahoot!</a>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <!-- Categoria -->
+      <section class="section">
+        <header class="section-header">
+          <h2 class="section-title">Para produtividade</h2>
+          <p class="section-description">Um conjunto excelente de ferramentas voltadas aumento de produtividade, tanto para docentes, como de alunos.</p>
+        </header>
+
+      <div class="section-list">
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">Keep</h3>
+              <a href="https://keep.google.com/u/0/" class="card-external-link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a>
+            </header>
+            <p class="card-text">Google Keep é uma ferramenta simples e poderosa para organizar ideias, lembretes e listas de tarefas de forma rápida e sincronizada. Ideal para professores que precisam anotar insights, planejar aulas ou acompanhar pendências do dia a dia, o Keep permite criar notas com cores, etiquetas e até colaborações em tempo real. Tudo fica salvo na nuvem e acessível de qualquer dispositivo — produtivo e sem complicação. </p>
+            <footer class="card-footer">
+              <a href="https://youtu.be/oObQ_d83OHc?si=Lwb7_EgDOcKhBd8V" class="card-action-link" target="_blank">Acesse: Como usar o Keep!</a>
+            </footer>
+          </article>
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">Notion</h3>
+              <a href="https://www.notion.com/pt" class="card-external-link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a>
+            </header>
+            <p class="card-text">Precisa de um lugar pra organizar tudo: aulas, ideias, projetos e até a vida? O Notion é tipo um canivete suíço digital — dá pra criar páginas, listas, calendários, bancos de dados e conectar tudo num só espaço. Ideal pra professores que gostam de ter controle sobre o planejamento, materiais e tarefas, sem perder tempo com mil ferramentas diferentes. Você monta do seu jeito, com liberdade total pra personalizar. Organização com estilo e praticidade, do jeito que a rotina docente merece! </p>
+            <footer class="card-footer">
+              <a href="https://www.youtube.com/watch?v=h6OhnMdELDM" class="card-action-link" target="_blank">Acesse: Introdução ao Notion!</a>
+            </footer>
+          </article>
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">Obsidian</h3>
+              <a href="https://obsidian.md/" class="card-external-link" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a>
+            </header>
+            <p class="card-text">Sabe aquele monte de ideias, planos de aulas e referências que vivem espalhados na sua cabeça? O Obsidian é tipo um caderno digital turbinado, onde tudo se conecta. Você escreve, organiza e relaciona suas anotações como se estivesse montando um mapa do seu pensamento. Perfeito pra quem gosta de planejar com clareza, revisar com facilidade e manter tudo acessível. Menos confusão, mais foco — e sua rotina docente agradece! </p>
+            <footer class="card-footer">
+              <a href="https://youtu.be/64qkBzaGnIw?si=0nqs5Es5Qv_gCuEP" class="card-action-link" target="_blank">Acesse: Aulas de Obsidian!</a>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <!-- Categoria -->
+      <section class="section">
+        <header class="section-header">
+          <h2 class="section-title">Para áreas específicas</h2>
+          <p class="section-description"></p>
+        </header>
+
+        <div class="section-list">
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">CircuitLab</h3>
+              <a href="https://www.circuitlab.com/" class="card-external-link" target="_blank" rel="noopener">
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </header>
+            <p class="card-text">CircuitLab é uma plataforma online que permite simular circuitos elétricos e eletrônicos de forma prática e intuitiva, ideal para professores e alunos de áreas técnicas. Com uma interface amigável e recursos visuais interativos, é possível montar, testar e visualizar o funcionamento de circuitos em tempo real — tudo direto do navegador. Uma excelente ferramenta para tornar o ensino de eletrônica mais acessível, dinâmico e livre de complicações com hardware físico. </p>
+            <footer class="card-footer">
+              <a href="https://www.youtube.com/watch?v=NmMZj3Rm-h8" class="card-action-link" target="_blank">Acesse: Tutoriais de CircuitLab</a>
+            </footer>
+          </article>
+
+          <article class="card card--tool">
+            <header class="card-header">
+              <h3 class="card-title">Tinkercad</h3>
+              <a href="https://www.tinkercad.com/" class="card-external-link" target="_blank" rel="noopener">
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </header>
+            <p class="card-text">Tinkercad é uma plataforma online gratuita que permite criar modelos 3D, simular circuitos eletrônicos e até programar com blocos de código. Ideal para professores que trabalham com robótica, eletrônica ou design, ela transforma conceitos técnicos em experiências práticas e visuais. Tudo acontece direto no navegador, com uma interface amigável que facilita o aprendizado criativo e mão na massa — mesmo para iniciantes. </p>
+            <footer class="card-footer">
+              <a href="https://www.youtube.com/watch?v=Cj4tWmLiNIk" class="card-action-link" target="_blank">Acesse: Como usar o Tinkercad</a>
+            </footer>
+          </article>
+        </div>
+
+      </section>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
